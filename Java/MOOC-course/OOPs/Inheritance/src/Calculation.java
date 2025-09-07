@@ -1,7 +1,8 @@
 // import Scanner
 import java.util.Scanner;
 
-class Calculation{
+class Calculation
+{
     private int x;
     private int y;
     Calculation(){}

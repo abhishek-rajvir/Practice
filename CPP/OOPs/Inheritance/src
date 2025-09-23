@@ -1,0 +1,22 @@
+#include <iostream>
+
+class A{
+    public:
+        void print() { printf("I'm A"); }
+};
+
+class B{
+    public:
+        void print() { printf("I'm B"); }
+};
+
+class C : public A,B{
+    public:
+        void print() { printf("I'm C"); }
+};
+
+int main(){
+    A* a = new C;
+    B* b = new B;
+    C* c = new A;
+}
